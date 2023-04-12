@@ -10,18 +10,35 @@
     font-style: normal;
     font-weight: 900;
     font-size: 15rem;
-    line-height: 7.2rem;
+    line-height: 9rem;
     text-align: center;
     background: linear-gradient(180deg, grey 0%, white 100%); //DO POPRAWY
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #83888f;
     position: absolute;
-    height: 12rem;
+    height: 15rem;
     top: -9rem;
     display: flex;
     align-items: center;
     z-index: -10;
+
+    @media screen and (max-width: 1100px) {
+      font-size: 9.6rem;
+      top: -11rem;
+      height: 11rem;
+    }
+
+    @media screen and (max-width: 760px) {
+      height: 15rem;
+      top: -16rem;
+      font-size: 8rem;
+    }
+
+    @media screen and (max-width: 650px) {
+      font-size: 4rem;
+      line-height: 7.2rem;
+    }
   }
 
   .collection-boxes-container {
@@ -30,6 +47,14 @@
     align-items: center;
     gap: 2.8rem;
 
+    @media screen and (max-width: 1100px) {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 650px) {
+      gap: 4.8rem;
+    }
+
     .collection-box {
       display: flex;
       flex-direction: column;
@@ -37,10 +62,38 @@
       justify-content: center;
       text-align: center;
 
+      @media screen and (max-width: 1100px) {
+        flex-direction: row;
+      }
+
+      @media screen and (max-width: 650px) {
+        flex-direction: column;
+      }
+
+      .coffee-txt-container {
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+
+        @media screen and (max-width: 650px) {
+          text-align: center;
+        }
+      }
+
       .h3-primary {
         @include h3Primary($font-color-dark);
         margin-top: 2rem;
         margin-bottom: 2.4rem;
+
+        @media screen and (max-width: 1100px) {
+          text-align: left;
+        }
+
+        @media screen and (max-width: 650px) {
+          text-align: center;
+        }
       }
 
       .p-primary {
@@ -56,6 +109,11 @@
         justify-content: center;
         align-items: flex-end;
         background-position: center;
+
+        @media screen and (max-width: 1100px) {
+          align-self: flex-end;
+          height: 13rem;
+        }
       }
     }
 

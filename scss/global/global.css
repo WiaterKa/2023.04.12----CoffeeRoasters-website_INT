@@ -11,3 +11,15 @@ html {
 .wrapper-main {
   padding-inline: 8rem;
 }
+
+@media screen and (max-width: 1100px) {
+  .wrapper-main {
+    padding-inline: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper-main {
+    padding-inline: 2.4rem;
+  }
+}

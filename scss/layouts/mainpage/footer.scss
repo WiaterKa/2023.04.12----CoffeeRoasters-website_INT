@@ -5,11 +5,22 @@
   background-color: #2c343e;
   margin-top: 20rem;
 
+  @media screen and (max-width: 1100px) {
+    margin-top: 15rem;
+    flex-direction: column;
+    gap: 6.5rem;
+  }
+
   .logo-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10rem;
+
+    @media screen and (max-width: 1100px) {
+      flex-direction: column;
+      gap: 3.2rem;
+    }
 
     .logo-footer {
       background-image: url("../assets/shared/desktop/logo-white.svg");
@@ -24,6 +35,18 @@
       justify-content: space-between;
       align-items: center;
       gap: 3.3rem;
+
+      @media screen and (max-width: 1100px) {
+        justify-content: center;
+      }
+
+      @media screen and (max-width: 650px) {
+        flex-direction: column;
+        gap: 2.4rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
 
       .nav-item {
         @include navItem();
@@ -40,6 +63,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 2.4rem;
+
+    @media screen and (max-width: 1100px) {
+      justify-content: center;
+    }
 
     svg {
       cursor: pointer;
