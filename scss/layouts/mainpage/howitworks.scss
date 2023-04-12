@@ -1,0 +1,61 @@
+.how-it-works {
+  padding-inline: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 26rem;
+
+  h4 {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #83888f;
+    padding-bottom: 8rem;
+  }
+
+  .plan-line {
+  }
+
+  .hiw-boxes-container {
+    display: flex;
+    gap: 9.5rem;
+    margin-bottom: 6.4rem;
+
+    .hiw-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 3.8rem;
+
+      .p-number {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 7.2rem;
+        line-height: 7.2rem;
+        color: #fdd6ba;
+      }
+
+      .h2-secondary {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+        color: $font-color-dark;
+      }
+
+      .p-primary {
+        @include pPrimary($font-color-dark);
+      }
+    }
+  }
+
+  .btn-primary {
+    @include btnPrimary();
+  }
+}

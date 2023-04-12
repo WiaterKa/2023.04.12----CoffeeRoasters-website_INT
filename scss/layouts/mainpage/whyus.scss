@@ -1,0 +1,65 @@
+.why-us { //width of the last svg changed to 72 - to be fixed
+  margin-top: 20rem;
+
+  .why-us-box {
+    background: #2c343e;
+    border-radius: 1rem;
+    height: 57.7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 10rem;
+
+    .h2-primary {
+      @include h2Primary($font-color-bright);
+      padding-bottom: 3.2rem;
+    }
+
+    .p-primary {
+      @include pPrimary($font-color-bright);
+      width: 40%;
+      text-align: center;
+    }
+
+    .features-box {
+      display: flex;
+      justify-content: space-around;
+      gap: 3rem;
+      position: absolute;
+      bottom: -16rem;
+      width: 80%;
+
+      .feature-box {
+        width: 33.3%;
+        height: 38.2rem;
+        background: #0e8784;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 3rem;
+
+        .h3-primary {
+          @include h3Primary($font-color-bright);
+          padding-bottom: 2.4rem;
+          padding-top: 5.4rem;
+        }
+
+        .p-primary {
+          @include pPrimary($font-color-bright);
+          width: 100%;
+        }
+
+        svg {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

@@ -196,3 +196,91 @@ html {
 .collection .collection-boxes-container .img-4 {
   background-image: url("../assets/home/desktop/image-danche.png");
 }
+
+.why-us {
+  margin-top: 20rem;
+}
+
+.why-us .why-us-box {
+  background: #2c343e;
+  border-radius: 1rem;
+  height: 57.7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding-top: 10rem;
+}
+
+.why-us .why-us-box .h2-primary {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #fefcf7;
+  padding-bottom: 3.2rem;
+}
+
+.why-us .why-us-box .p-primary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fefcf7;
+  width: 40%;
+  text-align: center;
+}
+
+.why-us .why-us-box .features-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  position: absolute;
+  bottom: -16rem;
+  width: 80%;
+}
+
+.why-us .why-us-box .features-box .feature-box {
+  width: 33.3%;
+  height: 38.2rem;
+  background: #0e8784;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 3rem;
+}
+
+.why-us .why-us-box .features-box .feature-box .h3-primary {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: #fefcf7;
+  padding-bottom: 2.4rem;
+  padding-top: 5.4rem;
+}
+
+.why-us .why-us-box .features-box .feature-box .p-primary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fefcf7;
+  width: 100%;
+}
+
+.why-us .why-us-box .features-box .feature-box svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

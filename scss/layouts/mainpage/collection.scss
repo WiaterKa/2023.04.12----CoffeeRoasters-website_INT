@@ -1,0 +1,75 @@
+.collection {
+  position: relative;
+  padding-inline: 8.5rem; //16.5rem
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .collection-shadow {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15rem;
+    line-height: 7.2rem;
+    text-align: center;
+    background: linear-gradient(180deg, grey 0%, #fefcf7 100%); //DO POPRAWY
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #83888f;
+    position: absolute;
+    height: 12rem;
+    top: -9rem;
+    display: flex;
+    align-items: center;
+    z-index: -10;
+  }
+
+  .collection-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.8rem;
+
+    .collection-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .h3-primary {
+        @include h3Primary($font-color-dark);
+        margin-top: 2rem;
+        margin-bottom: 2.4rem;
+      }
+
+      .p-primary {
+        @include pPrimary($font-color-dark);
+      }
+
+      .coffee-img-container {
+        width: 100%;
+        height: 15rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: center;
+      }
+    }
+
+    .img-1 {
+      background-image: url("../assets/home/desktop/image-gran-espresso.png");
+    }
+    .img-2 {
+      background-image: url("../assets/home/desktop/image-planalto.png");
+    }
+    .img-3 {
+      background-image: url("../assets/home/desktop/image-piccollo.png");
+    }
+    .img-4 {
+      background-image: url("../assets/home/desktop/image-danche.png");
+    }
+  }
+}
