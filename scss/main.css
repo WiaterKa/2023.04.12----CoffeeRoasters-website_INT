@@ -930,11 +930,11 @@ html {
   color: #fdd6ba;
 }
 
-.hero {
+.hero-aboutus {
   margin-bottom: 16.5rem;
 }
 
-.hero .hero-box-aboutus {
+.hero-aboutus .hero-box-aboutus {
   width: 100%;
   height: 45rem;
   display: flex;
@@ -946,19 +946,19 @@ html {
 }
 
 @media screen and (max-width: 1100px) {
-  .hero .hero-box-aboutus {
+  .hero-aboutus .hero-box-aboutus {
     background-image: url("../assets/about/tablet/image-hero-whitecup.jpg");
   }
 }
 
 @media screen and (max-width: 650px) {
-  .hero .hero-box-aboutus {
+  .hero-aboutus .hero-box-aboutus {
     background-image: url("../assets/about/mobile/image-hero-whitecup.jpg");
     justify-content: center;
   }
 }
 
-.hero .hero-box-aboutus .hero-box-txt {
+.hero-aboutus .hero-box-aboutus .hero-box-txt {
   padding-left: 8.5rem;
   display: flex;
   flex-direction: column;
@@ -967,13 +967,13 @@ html {
 }
 
 @media screen and (max-width: 760px) {
-  .hero .hero-box-aboutus .hero-box-txt {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt {
     padding-left: 4.5rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .hero .hero-box-aboutus .hero-box-txt {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt {
     align-items: center;
     gap: 2.4rem;
     padding: 10rem 2.4rem;
@@ -982,7 +982,7 @@ html {
   }
 }
 
-.hero .hero-box-aboutus .hero-box-txt .h2-primary {
+.hero-aboutus .hero-box-aboutus .hero-box-txt .h2-primary {
   font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
@@ -993,20 +993,20 @@ html {
 }
 
 @media screen and (max-width: 1100px) {
-  .hero .hero-box-aboutus .hero-box-txt .h2-primary {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt .h2-primary {
     font-size: 4.8rem;
     line-height: 4.8rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .hero .hero-box-aboutus .hero-box-txt .h2-primary {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt .h2-primary {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 
-.hero .hero-box-aboutus .hero-box-txt .p-primary {
+.hero-aboutus .hero-box-aboutus .hero-box-txt .p-primary {
   font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1020,7 +1020,7 @@ html {
 }
 
 @media screen and (max-width: 1100px) {
-  .hero .hero-box-aboutus .hero-box-txt .p-primary {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt .p-primary {
     font-size: 1.5rem;
     line-height: 2.5rem;
     padding-top: 2.4rem;
@@ -1029,7 +1029,7 @@ html {
 }
 
 @media screen and (max-width: 650px) {
-  .hero .hero-box-aboutus .hero-box-txt .p-primary {
+  .hero-aboutus .hero-box-aboutus .hero-box-txt .p-primary {
     font-size: 1.5rem;
     line-height: 2.5rem;
     padding: 0;
@@ -1077,4 +1077,271 @@ html {
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #333d4b;
+}
+
+.quality {
+  margin-top: 25.6rem;
+}
+
+.quality .quality-txt-box {
+  height: 47.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 8.8rem;
+  padding-left: 8.5rem;
+  position: relative;
+  background: #2c343e;
+  border-radius: 1rem;
+  gap: 3.2rem;
+}
+
+.quality .quality-txt-box .h2-primary {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #fefcf7;
+  text-align: left;
+  max-width: 50%;
+}
+
+.quality .quality-txt-box .p-primary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 45%;
+}
+
+.quality .quality-img {
+  background-image: url("../assets/about/desktop/image-quality.jpg");
+  background-size: cover;
+  width: 44.5rem;
+  height: 47.5rem;
+  border-radius: 8px;
+  position: absolute;
+  right: 8rem;
+  top: -8rem;
+}
+
+.contact {
+  padding-inline: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact {
+    margin-top: 41rem;
+    padding-inline: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact {
+    align-items: center;
+    margin-top: 70rem;
+  }
+}
+
+.contact h4 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #83888f;
+  padding-bottom: 8rem;
+}
+
+.contact-boxes-container {
+  display: flex;
+  gap: 9.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-boxes-container {
+    flex-direction: column;
+    gap: 5.6rem;
+  }
+}
+
+.contact-boxes-container .box-exp {
+  margin-top: 0.6rem;
+}
+
+.contact-boxes-container .contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.8rem;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-boxes-container .contact-box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.4rem;
+  }
+}
+
+.contact-boxes-container .contact-box .p-number {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  color: #fdd6ba;
+}
+
+.contact-boxes-container .contact-box .h2-secondary {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  color: #333d4b;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-boxes-container .contact-box .h2-secondary {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    max-width: 25rem;
+  }
+}
+
+.contact-boxes-container .contact-box .p-primary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #333d4b;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-boxes-container .contact-box .p-primary {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+.footer-aboutus {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.7rem 8.5rem;
+  background-color: #2c343e;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-aboutus {
+    margin-top: 15rem;
+    flex-direction: column;
+    gap: 6.5rem;
+  }
+}
+
+.footer-aboutus .logo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-aboutus .logo-box {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}
+
+.footer-aboutus .logo-box .logo-footer {
+  background-image: url("../assets/shared/desktop/logo-white.svg");
+  width: 23.6rem;
+  height: 2.6rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-aboutus .logo-box .nav-items-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-aboutus .logo-box .nav-items-footer {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-aboutus .logo-box .nav-items-footer {
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.footer-aboutus .logo-box .nav-items-footer .nav-item {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-aboutus .logo-box .nav-items-footer .nav-item:hover {
+  color: #333d4b;
+}
+
+.footer-aboutus .logo-box .nav-items-footer .nav-item:hover {
+  color: #fefcf7;
+}
+
+.footer-aboutus .social-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-aboutus .social-box {
+    justify-content: center;
+  }
+}
+
+.footer-aboutus .social-box svg {
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-aboutus .social-box svg:hover {
+  color: #fdd6ba;
 }

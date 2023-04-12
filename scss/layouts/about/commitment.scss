@@ -1,0 +1,31 @@
+.commitment {
+  padding-inline: 8.5rem;
+  display: flex;
+  gap: 12.5rem;
+  height: 52rem;
+
+  .commitment-img {
+    width: 40%;
+    height: 100%;
+    background-image: url("../assets/about/desktop/image-commitment.jpg");
+    background-size: cover;
+    border-radius: 0.8rem;
+  }
+
+  .commitment-txt-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.2rem;
+    width: 60%;
+
+    .h2-primary {
+      @include h2Primary($font-color-dark);
+    }
+
+    .p-primary {
+      @include pPrimary($font-color-dark);
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.quality {
+  margin-top: 25.6rem;
+
+  .quality-txt-box {
+    height: 47.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 8.8rem;
+    padding-left: 8.5rem;
+    position: relative;
+    background: #2c343e;
+    border-radius: 1rem;
+    gap: 3.2rem;
+
+    .h2-primary {
+      @include h2Primary($font-color-bright);
+      text-align: left;
+      max-width: 50%;
+    }
+
+    .p-primary {
+      @include pPrimary($font-color-bright);
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      max-width: 45%;
+    }
+  }
+
+  .quality-img {
+    background-image: url("../assets/about/desktop/image-quality.jpg");
+    background-size: cover;
+    width: 44.5rem;
+    height: 47.5rem;
+    border-radius: 8px;
+    position: absolute;
+    right: 8rem;
+    top: -8rem;
+  }
+}
