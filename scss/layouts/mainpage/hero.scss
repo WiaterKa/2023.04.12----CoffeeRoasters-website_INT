@@ -84,11 +84,11 @@
     }
 
     .burger.active .line:nth-child(2) {
-      transform: rotate(-45deg) translateY(7px);
+      transform: rotate(-45deg) translateY(8px);
     }
 
     .burger.active .line:nth-child(3) {
-      transform: rotate(45deg) translateY(-7px);
+      transform: rotate(45deg) translateY(-8px);
     }
   }
 
