@@ -44,6 +44,11 @@ $font-color-bright: #fefcf7;
   text-transform: uppercase;
   color: #83888f;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #333d4b;
+  }
 }
 
 @mixin btnPrimary {
@@ -62,4 +67,9 @@ $font-color-bright: #fefcf7;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #66d2cf;
+  }
 }

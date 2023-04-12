@@ -27,6 +27,10 @@
 
       .nav-item {
         @include navItem();
+
+        &:hover {
+          color: $font-color-bright;
+        }
       }
     }
   }
@@ -36,5 +40,15 @@
     align-items: center;
     justify-content: space-between;
     gap: 2.4rem;
+
+    svg {
+      cursor: pointer;
+      color: white;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: #fdd6ba;
+      }
+    }
   }
 }
