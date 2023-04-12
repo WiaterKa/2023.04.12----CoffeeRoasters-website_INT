@@ -1,0 +1,21 @@
+.hero .nav-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.4rem 0;
+}
+
+.hero .nav-hero .logo-hero {
+  background-image: url("../assets/shared/desktop/logo.svg");
+  width: 23.6rem;
+  height: 2.6rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero .nav-hero .nav-items-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.3rem;
+}

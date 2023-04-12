@@ -1,0 +1,65 @@
+$font-primary: "Fraunces", serif;
+$font-secondary: "Barlow", sans-serif;
+
+$font-color-dark: #333d4b;
+$font-color-grey: #fefcf7;
+$font-color-bright: #fefcf7;
+
+@mixin pPrimary($color) {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $color;
+}
+
+@mixin h3Primary($color) {
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: $color;
+}
+
+@mixin h2Primary($color) {
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: $color;
+}
+
+@mixin navItem() {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  text-decoration: none;
+}
+
+@mixin btnPrimary {
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 0.6rem;
+  width: 21.7rem;
+  height: 5.6rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
