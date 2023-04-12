@@ -3,12 +3,19 @@
 @import "global/global.scss";
 @import "global/variables.scss";
 
-//LAYOUTS
+
+//COMPONENTS
+
+@import "components/nav.scss";
+
+//LAYOUTS - MAINPAGE
 
 @import "layouts/mainpage/hero.scss";
 @import "layouts/mainpage/collection.scss";
 @import "layouts/mainpage/whyus.scss";
 @import "layouts/mainpage/howitworks.scss";
-@import "layouts/mainpage/footer.scss"
+@import "layouts/mainpage/footer.scss";
 
-//MAINPAGE
+//LAYOUTS - ABOUT
+
+@import "layouts/about/hero.scss";
