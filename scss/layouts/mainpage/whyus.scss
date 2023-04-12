@@ -1,4 +1,5 @@
-.why-us { //width of the last svg changed to 72 - to be fixed
+.why-us {
+  //width of the last svg changed to 72 - to be fixed
   margin-top: 20rem;
 
   .why-us-box {
@@ -31,6 +32,10 @@
       position: absolute;
       bottom: -16rem;
       width: 80%;
+
+      .small-svg {
+        padding-top: 2.2rem;
+      }
 
       .feature-box {
         width: 33.3%;

@@ -17,6 +17,38 @@
   }
 
   .plan-line {
+    width: 100%;
+    margin-bottom: 7rem;
+
+    .line {
+      width: 76.66%;
+      background-color: #fdd6ba;
+      height: 0.2rem;
+      position: relative;
+      z-index: -10;
+
+      .circle {
+        width: 3.1rem;
+        height: 3.1rem;
+        background: #fefcf7;
+        border: 2px solid #0e8784;
+        position: absolute;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .cr-1 {
+        left: 0;
+      }
+      .cr-2 {
+        left: 50%;
+      }
+      .cr-3 {
+        left: 100%;
+      }
+    }
   }
 
   .hiw-boxes-container {
