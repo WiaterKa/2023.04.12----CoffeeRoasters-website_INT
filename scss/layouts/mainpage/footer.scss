@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.7rem 8.5rem;
+  background-color: #2c343e;
+  margin-top: 20rem;
+
+  .logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+
+    .logo-footer {
+      background-image: url("../assets/shared/desktop/logo-white.svg");
+      width: 23.6rem;
+      height: 2.6rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .nav-items-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3.3rem;
+
+      .nav-item {
+        @include navItem();
+      }
+    }
+  }
+
+  .social-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+  }
+}
