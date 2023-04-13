@@ -1,6 +1,10 @@
 .hero-aboutus {
   margin-bottom: 16.5rem;
 
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 10.6rem;
+  }
+
   .hero-box-aboutus {
     width: 100%;
     height: 45rem;
