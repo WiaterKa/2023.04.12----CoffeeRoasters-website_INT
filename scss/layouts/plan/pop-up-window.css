@@ -1,0 +1,18 @@
+.pop-up-window {
+  width: 54rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5.6rem;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 0.8rem;
+}
+
+.pop-up-window .heading {
+  background-color: #333d4b;
+}
+
+.pop-up-window .heading .h2-primary {
+  @in;
+}

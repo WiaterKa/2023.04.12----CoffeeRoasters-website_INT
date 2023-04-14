@@ -3,118 +3,293 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./scss/main.scss" />
   <title>Frontend Mentor | Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  Home
-  About us
-  Create your plan
+  <div class="overlay"></div>
+  <div class="wrapper-main">
+    <section class="hero-plan">
+      <div class="nav-hero">
+        <div class="logo-hero"></div>
+        <div class="nav-items-hero">
+          <a class="nav-item" href="/">Home</a>
+          <a class="nav-item" href="/">About us</a>
+          <a class="nav-item" href="/">Create your plan</a>
+        </div>
+        <button class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+      </div>
 
-  Create a plan
-  Build a subscription plan that best fits your needs. We offer an assortment of the best 
-  artisan coffees from around the globe delivered fresh to your door.
+      <div class="hero-box-plan">
+        <div class="hero-box-txt">
+          <h1 class="h1-hero">Create your plan</h1>
+          <p class="p-primary">
+            Build a subscription plan that best fits your needs. We offer an assortment of the best 
+            artisan coffees from around the globe delivered fresh to your door
+          </p>
+        </div>
+      </div>
+    </section>
+</div>
 
-  01
-  Pick your coffee
-  Select from our evolving range of artisan coffees. Our beans are ethically
-  sourced and we pay fair prices for them. There's new coffees in all profiles
-  every month for you to try out.
+<section class="plan">
+      <div class="plan-line">
+        <div class="line">
+          <div class="circle cr-1"></div>
+          <div class="circle cr-2"></div>
+          <div class="circle cr-3"></div>
+        </div>
+      </div>
+      <div class="hiw-boxes-container">
+        <div class="hiw-box">
+          <p class="p-number">01</p>
+          <h2 class="h2-secondary">Pick your coffee</h2>
+          <p class="p-primary">
+            Select from our evolving range of artisan coffees. Our beans are
+            ethically sourced and we pay fair prices for them. There are new
+            coffees in all profiles every month for you to try out.
+          </p>
+        </div>
+
+        <div class="hiw-box">
+          <p class="p-number">02</p>
+          <h2 class="h2-secondary">Choose the frequency</h2>
+          <p class="p-primary">
+            Customize your order frequency, quantity, even your roast style
+            and grind type. Pause, skip or cancel your subscription with no
+            commitment through our online portal.
+          </p>
+        </div>
+
+        <div class="hiw-box">
+          <p class="p-number">03</p>
+          <h2 class="h2-secondary">Receive and enjoy!</h2>
+          <p class="p-primary">
+            We ship your package within 48 hours, freshly roasted. Sit back
+            and enjoy award-winning world-class coffees curated to provide a
+            distinct tasting experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+      <!-- PLANER SECTION -->
+
+
+
+  <div class="wrapper-main">
+
+  <section class="planner">
+
+  <div class="nav-box">
+    <h3 class="h3-primary"><span>01</span>  Preferences</h3>
+    <h3 class="h3-primary"><span>02</span>  Bean type</h3>
+    <h3 class="h3-primary"><span>03</span>  Quantity</h3>
+    <h3 class="h3-primary"><span>04</span>  Grind option</h3>
+    <h3 class="h3-primary"><span>05</span>  Deliveries</h3>
+  </div>
+
+  <div class="main-box">
+
+    <div class="question-box">
+      <h2 class="h2-secondary">How do you drink your coffee?</h2>
+      <svg width="19" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M15.949.586l2.828 2.828-9.096 9.096L.586 3.414 3.414.586l6.267 6.267z" fill="#0E8784" fill-rule="nonzero"/></svg>
+    </div>
+
+    <div class="answers-box-container abc1">
+
+      <div class="answer-box">
+        <h3 class="h3-primary">Capsule</h3>
+        <p class="p-primary">Compatible with Nespresso systems and similar brewers</p>
+      </div>
+
+      <div class="answer-box">
+        <h3 class="h3-primary">Filter</h3>
+        <p class="p-primary">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+      </div>
+
+      <div class="answer-box">
+        <h3 class="h3-primary">Espresso</h3>
+        <p class="p-primary">Dense and finely ground beans for an intense, flavorful experience</p>
+      </div>
+
+    </div>
+
+  <div class="question-box">
+    <h2 class="h2-secondary">What type of coffee?</h2>
+    <svg width="19" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M15.949.586l2.828 2.828-9.096 9.096L.586 3.414 3.414.586l6.267 6.267z" fill="#0E8784" fill-rule="nonzero"/></svg>
+  </div>
+
+  <div class="answers-box-container abc2">
+
+    <div class="answer-box">
+      <h3 class="h3-primary">Single origin</h3>
+       <p class="p-primary">Distinct, high quality coffee from a specific family-owned farm</p>
+    </div>
+
+    <div class="answer-box">
+      <h3 class="h3-primary">Decaf</h3>
+      <p class="p-primary">Just like regular coffee, except the caffeine has been removed</p>
+    </div>
+
+    <div class="answer-box">
+      <h3 class="h3-primary">Blended</h3>
+      <p class="p-primary">Combination of two or three dark roasted beans of organic coffees</p>
+    </div>
+
+    </div>
+
+    <div class="question-box">
+      <h2 class="h2-secondary">How much would you like?</h2>
+      <svg width="19" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M15.949.586l2.828 2.828-9.096 9.096L.586 3.414 3.414.586l6.267 6.267z" fill="#0E8784" fill-rule="nonzero"/></svg>
+    </div>
   
-  02
-  Choose the frequency
-  Customize your order frequency, quantity, even your roast style and grind type.
-  Pause, skip or cancel your subscription with no commitment through our online portal.
+  <div class="answers-box-container abc3">
+
+  <div class="answer-box">
+    <h3 class="h3-primary">250g</h3>
+    <p class="p-primary">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+  </div>
   
-  03
-  Receive and enjoy!
-  We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-  world-class coffees curated to provide a distinct tasting experience.
+  <div class="answer-box">
+    <h3 class="h3-primary">500g</h3>
+    <p class="p-primary">Perfect option for a couple. Yields about 40 delectable cups.</p>
+  </div>
 
-  01 Preferences
-  02 Bean type
-  03 Quantity
-  04 Grind option
-  05 Deliveries
+  <div class="answer-box">
+    <h3 class="h3-primary">1000g</h3>
+    <p class="p-primary">Perfect for offices and events. Yields about 90 delightful cups.</p>
+    </div>
 
-  How do you drink your coffee?
+  </div>
 
-  Capsule
-  Compatible with Nespresso systems and similar brewers
-
-  Filter
-  For pour over or drip methods like Aeropress, Chemex, and V60
-
-  Espresso
-  Dense and finely ground beans for an intense, flavorful experience
-
-  What type of coffee?
-
-  Single origin
-  Distinct, high quality coffee from a specific family-owned farm
-
-  Decaf
-  Just like regular coffee, except the caffeine has been removed
-
-  Blended
-  Combination of two or three dark roasted beans of organic coffees
-
-  How much would you like?
-  250g
-  Perfect for the solo drinker. Yields about 12 delicious cups.
+  <div class="question-box">
+      <h2 class="h2-secondary">Want us to grind them?</h2>
+      <svg width="19" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M15.949.586l2.828 2.828-9.096 9.096L.586 3.414 3.414.586l6.267 6.267z" fill="#0E8784" fill-rule="nonzero"/></svg>
+  </div>
   
-  500g
-  Perfect option for a couple. Yields about 40 delectable cups.
+    <div class="answers-box-container abc4">
 
-  1000g
-  Perfect for offices and events. Yields about 90 delightful cups.
+  <div class="answer-box">
+    <h3 class="h3-primary">Wholebean</h3>
+    <p class="p-primary">Best choice if you cherish the full sensory experience</p>
+  </div>
 
-  Want us to grind them?
+  <div class="answer-box">
+  <h3 class="h3-primary">Filter</h3>
+  <p class="p-primary">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+  </div>
 
-  Wholebean
-  Best choice if you cherish the full sensory experience
+  <div class="answer-box">
+  <h3 class="h3-primary">Cafetiére</h3>
+  <p class="p-primary">Course ground beans specially suited for french press coffee</p>
+  </div>
 
-  Filter
-  For drip or pour-over coffee methods such as V60 or Aeropress
+  </div>
 
-  Cafetiére
-  Course ground beans specially suited for french press coffee
+  <div class="question-box">
+  <h2 class="h2-secondary">How often should we deliver?</h2>
+  <svg width="19" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M15.949.586l2.828 2.828-9.096 9.096L.586 3.414 3.414.586l6.267 6.267z" fill="#0E8784" fill-rule="nonzero"/></svg>
+  </div>
+  
+  <div class="answers-box-container abc5">
 
-  How often should we deliver?
+  <div class="answer-box">
+    <h3 class="h3-primary">Every week</h3>
+    <p class="p-primary p-price-1">$14.00 per shipment. Includes free first-class shipping.</p>
+  </div>
 
-  Every week
-  $14.00 per shipment. Includes free first-class shipping.
+  <div class="answer-box">
+  <h3 class="h3-primary">Every 2 weeks</h3>
+  <p class="p-primary p-price-2">$17.25 per shipment. Includes free priority shipping.</p>
+  </div>
 
-  Every 2 weeks
-  $17.25 per shipment. Includes free priority shipping.
+  <div class="answer-box ">
+  <h3 class="h3-primary">Every month</h3>
+  <p class="p-primary p-price-3">$22.50 per shipment. Includes free priority shipping.</p>
+  </div>
 
-  Every month
-  $22.50 per shipment. Includes free priority shipping.
+  </div>
 
-  Order Summary
-  “I drink coffee _____, with a _____ type of bean. _____ ground ala _____, 
-  sent to me _____.”
+  <div class="answer-box summary">
+  <h4>Order Summary</h4>
+  <h3 class="h3-primary" id="summary-filled-txt">“I drink coffee <span class="span-summary-1">_____</span>, with a <span class="span-summary-2">_____</span> type of bean. <span class="span-summary-3">_____</span> ground ala <span class="span-summary-4">_____</span>, 
+  sent to me <span class="span-summary-5">_____</span>.”</h3>
+</div>
 
-  Create my plan!
+<button class="btn-primary" id="checkout-btn">Create my plan!</button>
+  </div>
 
-  <!-- Modal -->
-  Order Summary
+  </section>
 
-  “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
-  sent to me _____.”
 
-  Is this correct? You can proceed to checkout or go back to plan selection if something 
-  is off. Subscription discount codes can also be redeemed at the checkout.
+  <!-- POP-UP-WINDOW -->
 
-  $_____/month
 
-  Checkout
-  <!-- End modal -->
+<section class="pop-up-window">
 
-  Home
-  About us
-  Create your plan
-</body>
+  <h2 class="h2-primary">Order Summary</h2>
+<div class="main-box-summary">
+  <div class="summary-txt" id="checkout-summary-txt">“I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
+  sent to me _____.”</div>
 
+  <p class="p-primary" >Is this correct? You can proceed to checkout or go back to plan selection if something 
+  is off. Subscription discount codes can also be redeemed at the checkout.</p>
+
+  <div class="checkout-box">
+  <h3 class="h3-secondary" id="price">$_____/month</h3>
+  <button class="btn-secondary" id="price2">Jebać pis</button>
+  <div class="btn-primary">Checkout</div>
+
+</div>
+</div>
+
+</section>
+
+  <section class="footer">
+    <div class="logo-box">
+      <div class="logo-footer"></div>
+      <div class="nav-items-footer">
+        <a class="nav-item" href="/">Home</a>
+        <a class="nav-item" href="about.html">About us</a>
+        <a class="nav-item" href="/">Create your plan</a>
+      </div>
+    </div>
+    <div class="social-box">
+      <a href=""
+        ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <path
+            fill="currentColor"
+            d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+          />
+        </svg>
+      </a>
+      <a href=""
+        ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+          <path
+            fill="currentColor"
+            d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"
+          />
+        </svg>
+      </a>
+      <a href=""
+        ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <path
+            fill="currentColor"
+            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+          />
+        </svg>
+      </a>
+    </div>
+  </section>
+</div>
+<script src="./js/burger.js"></script>
+<script src="./js/plan.js"></script>
+  </body>
 </html>
