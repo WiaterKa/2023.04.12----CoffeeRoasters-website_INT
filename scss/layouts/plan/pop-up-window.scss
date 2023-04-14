@@ -43,6 +43,12 @@
       line-height: 3.2rem;
       padding: 2.8rem 5rem 2.8rem 2.4rem;
     }
+
+    @media screen and (max-width: 430px) {
+      padding: 1rem;
+      font-size: 2rem;
+      height: auto;
+    }
   }
 
   .main-box-summary {
@@ -57,6 +63,10 @@
       padding-top: 4rem;
     }
 
+    @media screen and (max-width: 430px) {
+      padding: 1rem;
+    }
+
     .summary-txt {
       font-family: $font-primary;
       font-style: normal;
@@ -64,6 +74,11 @@
       font-size: 2.4rem;
       line-height: 4rem;
       color: #83888f;
+
+      @media screen and (max-width: 430px) {
+        font-size: 2rem;
+        line-height: 2.5rem;
+      }
     }
 
     .p-primary {
@@ -76,6 +91,12 @@
         padding-bottom: 2.4rem;
         font-size: 1.5rem;
         line-height: 2.5rem;
+      }
+
+      @media screen and (max-width: 430px) {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        padding: 1rem 0;
       }
     }
 
@@ -117,6 +138,11 @@
 
         @media screen and (max-width: 600px) {
           display: flex;
+        }
+
+        @media screen and (max-width: 430px) {
+          font-size: 1.5rem;
+          line-height: 2rem;
         }
       }
     }

@@ -14,6 +14,10 @@
     margin-inline: 4rem;
   }
 
+  @media screen and (max-width: 760px) {
+    margin-inline: 0;
+  }
+
   .nav-box {
     display: flex;
     flex-direction: column;
@@ -92,6 +96,11 @@
         @media screen and (max-width: 1250px) {
           font-size: 3.2rem;
           line-height: 4.8rem;
+        }
+
+        @media screen and (max-width: 760px) {
+          font-size: 2.4rem;
+          line-height: 2.8rem;
         }
       }
     }
@@ -191,6 +200,10 @@
       align-self: flex-end;
       border: none;
       outline: none;
+
+      @media screen and (max-width: 760px) {
+        align-self: center;
+      }
     }
 
     .summary {
